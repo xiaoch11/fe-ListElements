@@ -1,0 +1,233 @@
+table.table_bordered {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+table.table_bordered th {
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f5f5f5;
+    color: rgb(66, 139, 202)
+}
+
+table.table_bordered td {
+	padding: 6px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.paginatorDiv {
+    text-align: center;
+}
+.paginator {
+    display: inline-block;
+    /* margin: auto; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* right: 0; */
+    padding: 0px;
+    border-radius: 4px;
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    text-align: start;
+    text-indent: 0px;
+    cursor: auto;
+    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    list-style: disc outside none;
+    visibility: visible;
+    text-decoration: none solid rgb(51, 51, 51);
+    white-space: normal;
+    word-break: normal;
+    word-wrap: normal;
+}
+.paginator .pagi-li {
+    display: inline;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    text-decoration: none solid rgb(51, 51, 51);
+}
+.paginator .pagi-li>* {
+    display: block;
+    position: relative;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    float: left;
+}
+.paginator .pagi-a {
+    background: rgb(255, 255, 255) none repeat scroll 0px 0px / auto padding-box border-box;
+    margin: 0px 0px 0px -1px;
+    border: 0.8px solid rgb(221, 221, 221);
+    color: rgb(66, 139, 202);
+    text-decoration: none solid rgb(66, 139, 202);
+}
+.paginator .pagi-a-leftside {
+    background: rgb(255, 255, 255) none repeat scroll 0px 0px / auto padding-box border-box;
+    margin: 0px 0px 0px -1px;
+    border: 0.8px solid rgb(221, 221, 221);
+    color: rgb(66, 139, 202);
+    text-decoration: none solid rgb(66, 139, 202);
+    border-radius: 4px 0px 0px 4px;
+}
+.paginator .pagi-a-rightside {
+    background: rgb(255, 255, 255) none repeat scroll 0px 0px / auto padding-box border-box;
+    margin: 0px 0px 0px -1px;
+    border: 0.8px solid rgb(221, 221, 221);
+    color: rgb(66, 139, 202);
+    text-decoration: none solid rgb(66, 139, 202);
+    border-radius: 0px 4px 4px 0px;
+}
+.paginator .pagi-a-leftdisabled {
+    background: rgb(255, 255, 255) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0.8px solid rgb(221, 221, 221);
+    border-radius: 4px 0px 0px 4px;
+    color: rgb(153, 153, 153);
+    cursor: not-allowed;
+    text-decoration: none solid rgb(153, 153, 153);
+}
+.paginator .pagi-a-rightdisabled {
+    background: rgb(255, 255, 255) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0.8px solid rgb(221, 221, 221);
+    border-radius: 0px 4px 4px 0px;
+    color: rgb(153, 153, 153);
+    cursor: not-allowed;
+    text-decoration: none solid rgb(153, 153, 153);
+}
+.paginator .pagi-a-active {
+    z-index: 2;
+    background: rgb(66, 139, 202) none repeat scroll 0px 0px / auto padding-box border-box;
+    margin: 0px 0px 0px -1px;
+    border: 0.8px solid rgb(66, 139, 202);
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-decoration: none solid rgb(255, 255, 255);
+}
+
+.queryForm {
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    border: 0.8px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    background: rgb(245, 245, 245);
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    text-align: start;
+    text-indent: 0px;
+    cursor: auto;
+    font: normal normal normal normal 14px / 20px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    letter-spacing: normal;
+    list-style: disc outside none;
+    visibility: visible;
+    text-decoration: none solid rgb(51, 51, 51);
+    white-space: normal;
+    word-break: normal;
+    word-wrap: normal;
+    position: relative;
+    padding: 20px 50px 20px 0px;
+}
+.queryForm .queryDiv {
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 0px 5px 0px;
+}
+.queryForm .queryLabel {
+    text-align: center;
+    /* padding: 0px 20px 0; */
+    width: 40%;
+    color: rgb(66, 139, 202);
+    display: inline-block;
+    max-width: 100%;
+    /* margin: 0px 10px 5px 0; */
+    box-sizing: border-box;
+    cursor: default;
+    font: normal normal bold normal 14px / 20px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    text-decoration: none solid rgb(51, 51, 51);
+}
+.queryForm .queryInput {
+    height: 34px;
+    width: 60%;
+    padding: 6px 12px;
+    border: 0.8px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+    box-sizing: border-box;
+    outline: rgb(85, 85, 85) none 0px;
+    color: rgb(85, 85, 85);
+    text-decoration: none solid rgb(85, 85, 85);
+    vertical-align: middle;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.queryForm .queryBtn {
+    background: rgb(255, 255, 255) linear-gradient(rgb(66, 139, 202) 0px, rgb(66, 139, 202) 100%) repeat-x scroll 0% 0% / auto padding-box border-box;
+    padding: 6px 12px;
+    border: 0.8px solid #f5f5f5;
+    border-radius: 4px;
+    box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px;
+    color: #f5f5f5;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    position: absolute;
+    margin: 7px 0px 5px 0px;
+    right: 50px;
+    width: 80px;
+}
+.queryForm .clearBtn {
+    background: rgb(255, 255, 255) linear-gradient(rgba(66, 179, 204, 0.92) 0px, rgba(66, 179, 204, 0.92) 100%) repeat-x scroll 0% 0% / auto padding-box border-box;
+    padding: 6px 12px;
+    border: 0.8px solid #f5f5f5;
+    border-radius: 4px;
+    box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px;
+    color: #f5f5f5;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    position: absolute;
+    margin: 7px 0px 5px 0px;
+    right: 140px;
+    width: 80px;
+}
+.queryForm .querySelect {
+    /* display: inline-block; */
+    width: 60%;
+    height: 34px;
+    padding: 6px 12px;
+    border: 0.8px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+    color: rgb(85, 85, 85);
+    text-align: start;
+    text-indent: 0px;
+    cursor: default;
+    font: normal normal normal normal 14px / normal -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    letter-spacing: normal;
+    list-style: disc outside none;
+    visibility: visible;
+    text-decoration: none solid rgb(85, 85, 85);
+    white-space: normal;
+    word-break: normal;
+    word-wrap: normal;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.queryForm .querySelect .queryOption {
+    text-align: justify;
+    display: block;
+    align-self: center;
+    width: auto;
+    height: auto;
+    min-height: 16.8px;
+    box-sizing: border-box;
+    text-decoration: none solid rgb(85, 85, 85);
+}
+.queryForm>* {
+    text-decoration: none solid rgb(51, 51, 51);
+    vertical-align: middle;
+}
