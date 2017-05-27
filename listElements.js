@@ -74,7 +74,7 @@ function Paginator(options) {
         currentPage: 1,
         showSide: 2,
         showHead: true,
-        onPageChange: function() {}
+        onPageChange: function(page) {}
     };
     this.options = extend(defaultOptions, options);
     this.div = null;
@@ -166,7 +166,7 @@ function Table(options, data) {
     var defaultOptions = {
         styleClass: 'table_bordered',
         enableSort: false,
-        onSort: function() {}
+        onSort: function(head) {}
     };
     var defaultHead = {
         name: 'thead',
@@ -297,7 +297,7 @@ Table.prototype.updateData = function(data) {
 
 function QueryForm(options, query) {
     var defaultOptions = {
-        onSubmit: function() {}
+        onSubmit: function(params) {}
     };
     var defaultQuery_select = {
         label: '省份',
